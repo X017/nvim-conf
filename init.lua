@@ -23,6 +23,13 @@ vim.g.mapleader = ' '
 
 -- Keybindings
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>')
+--Tab Key Binding
+--
+vim.keymap.set('n','<leader>t','<cmd>tabedit<cr>')
+vim.keymap.set('n','<leader>q','<cmd>tabprevious<cr>')
+vim.keymap.set('n','<leader>e','<cmd>tabnext<cr>')
+vim.keymap.set('n','<leader>f','<cmd>tabfind<cr>')
+
 
 require("tokyonight").setup {
     transparent = true,
